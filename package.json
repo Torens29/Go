@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  },
+  "name": "go",
+  "version": "1.0.0",
+  "description": "Online \"Go\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torens29/Go.git"
+  },
+  "keywords": [
+    "go",
+    "game",
+    "online",
+    "game"
+  ],
+  "author": "ITorenSI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torens29/Go/issues"
+  },
+  "homepage": "https://github.com/Torens29/Go#readme",
+  "optionalDependencies": {
+    "utf-8-validate": "^5.0.10"
+  }
+}

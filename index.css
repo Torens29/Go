@@ -1,0 +1,65 @@
+.tableGo {
+    border-collapse: collapse;
+}
+
+.infoStep {
+    border-collapse: collapse;
+}
+
+.cell {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background: url(img/cellY.png);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.cell:first-child {
+    background: url(img/BorderY.png);
+    background-size: cover;
+}
+
+.cell:last-child {
+    background: url(img/BorderY.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+img {
+    height: 50px;
+    width: auto;
+    display: flex;
+}
+
+tr:first-child > .cell {
+    background: url(img/BorderY.png);
+    background-size: cover;
+    transform: rotate(90deg);
+}
+tr:last-child > .cell {
+    background: url(img/BorderY.png);
+    background-size: cover;
+    transform: rotate(270deg);
+}
+tr:first-child > .cell:first-child {
+    background: url(img/Angle.png);
+    background-size: cover;
+    transform: rotate(90deg);
+}
+tr:first-child > .cell:last-child {
+    background: url(img/Angle.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+tr:last-child > .cell:last-child {
+    background: url(img/Angle.png);
+    background-size: cover;
+    transform: rotate(270deg);
+}
+tr:last-child > .cell:first-child {
+    background: url(img/Angle.png);
+    background-size: cover;
+    transform: rotate(0deg);
+}
